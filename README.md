@@ -1,6 +1,6 @@
 ## Description
 
-A modern IRCd written in Python 3.10. Support for lower versions has officially been dropped.
+A modern IRCd written in Python 3.13. Support for lower versions has officially been dropped.
 <br>
 Massive code overhaul, so there might still be some issues.
 
