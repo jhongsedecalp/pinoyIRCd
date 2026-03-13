@@ -10,7 +10,7 @@ def cmd_ircops(client, recv):
     Displays all online IRC Operators.
     """
 
-    header_divider = "§~¤§¤~~¤§¤~~¤§¤~~¤§¤~~¤§¤~~¤§¤~~¤§¤~~¤§¤~~¤§¤~§"
+    header_divider = "-----------------------------------------------"
     client.sendnumeric(Numeric.RPL_IRCOPS, header_divider)
     client.sendnumeric(Numeric.RPL_IRCOPS, "Nick                    Status           Server")
     client.sendnumeric(Numeric.RPL_IRCOPS, "-----------------------------------------------")
