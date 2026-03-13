@@ -1,0 +1,8 @@
+# https://github.com/pyca/pyopenssl
+pyopenssl>=22.2
+cryptography
+
+# https://cffi.readthedocs.io/en/latest/
+cffi
+
+websockets>=13
