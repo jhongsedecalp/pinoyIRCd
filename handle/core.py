@@ -309,7 +309,7 @@ class IRCD:
     send_after_eos: ClassVar[dict] = {}
     delayed_connections: ClassVar[list] = []
     pending_close_clients: ClassVar[list] = []
-    versionnumber: str = "3.0"
+    versionnumber: str = "1.0"
     version: str = f"pinoyIRCd-{versionnumber}-beta"
     running: int = 0
     poller = None
